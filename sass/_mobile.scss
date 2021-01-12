@@ -1,0 +1,154 @@
+//Media query
+
+//Small screens
+@media screen and (max-width: 500px) {
+  #header {
+    flex-direction: column;
+    padding-top: 5px;
+
+    #header-img {
+      margin: 20px 0 0 0;
+    }
+    #nav-bar {
+      margin-right: 0;
+
+      #nav-items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+    }
+  }
+
+  //Learning section
+  .tools {
+    display: grid;
+    grid-template-areas: 'icon' 'tools-content';
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      grid-area: icon;
+      text-align: center;
+      
+    }
+  
+    .tools-content {
+      grid-area: tools-content;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+  }
+
+
+  //Pricing section
+  .pricing {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    'box-1'
+    'box-2'
+    'box-3';
+    grid-template-columns: 1fr;
+  
+    .box-1 {
+      grid-area: box-1;
+      
+    }
+  
+    .box-2 {
+      grid-area: box-2;
+    }
+  
+    .box-3 {
+      grid-area: box-3;
+    }
+  }
+
+  #main {
+    margin-top: 280px;
+  }
+
+
+  //Footer Section
+  
+}
+
+//Medium Screens
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    padding-top: 5px;
+
+    #header-img {
+      margin: 20px 0 0 0;
+    }
+    #nav-bar {
+      margin-right: 0;
+
+      #nav-items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+    }
+  }
+
+  //Learning section
+  .tools {
+    display: grid;
+    grid-template-areas: 'icon' 'tools-content';
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      grid-area: icon;
+      text-align: center;
+      
+    }
+  
+    .tools-content {
+      grid-area: tools-content;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+  }
+
+
+  //Pricing section
+  .pricing {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    'box-1'
+    'box-2'
+    'box-3';
+    grid-template-columns: 1fr;
+  
+    .box-1 {
+      grid-area: box-1;
+      
+    }
+  
+    .box-2 {
+      grid-area: box-2;
+    }
+  
+    .box-3 {
+      grid-area: box-3;
+    }
+  }
+
+  #main {
+    margin-top: 280px;
+  }
+}
+
+//Large screen
+@media screen and (min-width: 769px) and (max-width: 1178px) {
+
+}

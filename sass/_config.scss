@@ -1,0 +1,9 @@
+//variables
+$primary-color: #FFC0CB; //pink
+
+//ease-out transition
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+
