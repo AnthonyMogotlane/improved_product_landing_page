@@ -45,7 +45,7 @@ body {
         margin: 10px;
         border: none;
         border-radius: 6px;
-        background: lighten(blue, 13);
+        background: lighten(#444, 13);
         
         a {
           text-decoration: none;
@@ -195,7 +195,7 @@ body {
 
     }
     
-    h2 {
+    div {
       background: darken($primary-color, 5);
       padding: 10px;
     }
@@ -235,10 +235,6 @@ footer {
   width: 80%;
   padding-right: 35px;
   padding-bottom: 30px;
-
-  .footer-items {
-    //padding-right: 30px;
-  }
 
   .footer-list {
     display: flex;

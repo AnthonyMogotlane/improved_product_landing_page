@@ -21,6 +21,13 @@
     }
   }
 
+  // Main
+  #main {
+    #form {
+      margin-top: 280px;
+    }
+  }
+
   //Learning section
   .tools {
     display: grid;
@@ -66,14 +73,6 @@
       grid-area: box-3;
     }
   }
-
-  #main {
-    margin-top: 280px;
-  }
-
-
-  //Footer Section
-  
 }
 
 //Medium Screens
@@ -97,6 +96,13 @@
     }
   }
 
+  //main
+  #main {
+    #form {
+      margin-top: 280px;
+    }
+  }
+
   //Learning section
   .tools {
     display: grid;
@@ -142,13 +148,4 @@
       grid-area: box-3;
     }
   }
-
-  #main {
-    margin-top: 280px;
-  }
-}
-
-//Large screen
-@media screen and (min-width: 769px) and (max-width: 1178px) {
-
 }
